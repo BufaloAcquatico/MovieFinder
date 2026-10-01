@@ -8,5 +8,9 @@ spring:
                           # JWT_SECRET=value_of_the_key. Do not add this .env file to git
     accessTokenExpiration : 900
     refreshTokenExpiration: 604800
+  datasource:
+    url: jdbc:mysql://localhost:3306/movie_finder?useSSL=false
+    username: root
+    password: root_pwd
 springdoc:
   override-with-generic-response: false

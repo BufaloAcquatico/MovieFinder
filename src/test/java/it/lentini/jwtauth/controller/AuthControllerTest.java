@@ -1,18 +1,20 @@
 package it.lentini.jwtauth.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import it.lentini.jwtauth.config.JwtConfig;
-import it.lentini.jwtauth.config.ObjectMapperConfig;
-import it.lentini.jwtauth.domain.User;
-import it.lentini.jwtauth.dto.request.LoginRequest;
-import it.lentini.jwtauth.dto.request.RegisterRequest;
-import it.lentini.jwtauth.exception.RestAccessDeniedHandler;
-import it.lentini.jwtauth.exception.RestAuthenticationEntryPoint;
-import it.lentini.jwtauth.repository.UserRepository;
-import it.lentini.jwtauth.security.JwtAuthenticationFilter;
-import it.lentini.jwtauth.security.JwtService;
-import it.lentini.jwtauth.security.SecurityConfig;
-import it.lentini.jwtauth.service.UserService;
+
+import it.lentini.moviefinder.config.JwtConfig;
+import it.lentini.moviefinder.config.ObjectMapperConfig;
+import it.lentini.moviefinder.controller.AuthController;
+import it.lentini.moviefinder.domain.User;
+import it.lentini.moviefinder.dto.request.LoginRequest;
+import it.lentini.moviefinder.dto.request.RegisterRequest;
+import it.lentini.moviefinder.exception.RestAccessDeniedHandler;
+import it.lentini.moviefinder.exception.RestAuthenticationEntryPoint;
+import it.lentini.moviefinder.repository.UserRepository;
+import it.lentini.moviefinder.security.JwtAuthenticationFilter;
+import it.lentini.moviefinder.security.JwtService;
+import it.lentini.moviefinder.security.SecurityConfig;
+import it.lentini.moviefinder.service.UserService;
 import jakarta.servlet.http.Cookie;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
