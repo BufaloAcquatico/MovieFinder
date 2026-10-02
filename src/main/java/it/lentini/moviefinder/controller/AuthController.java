@@ -69,6 +69,7 @@ public class AuthController {
             @RequestBody LoginRequest request,
             HttpServletResponse response) {
 
+        @SuppressWarnings("unused")
         Authentication authentication =
                 authenticationManager.authenticate(
                         new UsernamePasswordAuthenticationToken(

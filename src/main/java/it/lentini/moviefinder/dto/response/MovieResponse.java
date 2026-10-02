@@ -12,6 +12,5 @@ public record MovieResponse(
     String language,
     String director,
     Short rating,
-    List<Long> genres,
-    List<Long> reviews
+    List<GenreResponse> genres
 ) {}

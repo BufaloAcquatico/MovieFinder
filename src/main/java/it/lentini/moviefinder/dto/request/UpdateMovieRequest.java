@@ -1,4 +1,4 @@
-package it.lentini/moviefinder.dto.request;
+package it.lentini.moviefinder.dto.request;
 
 import java.sql.Date;
 
