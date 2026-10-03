@@ -1,10 +1,10 @@
-package it.lentini.jwtauth;
+package it.lentini.moviefinder;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JwtAuthApplicationTests {
+class MovieFinderApplicationTests {
 
     @Test
     void contextLoads() {

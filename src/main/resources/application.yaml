@@ -9,7 +9,7 @@ spring:
     accessTokenExpiration : 900
     refreshTokenExpiration: 604800
   datasource:
-    url: jdbc:mysql://localhost:3306/movie_finder?useSSL=false
+    url: jdbc:mysql://localhost:3306/movie_finder?useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: root_pwd
 springdoc:

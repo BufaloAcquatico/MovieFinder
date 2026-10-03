@@ -1,4 +1,4 @@
-package it.lentini.jwtauth.controller;
+package it.lentini.moviefinder.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
