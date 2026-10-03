@@ -4,8 +4,7 @@ spring:
   application:
     name: JWT-Auth
   jwt:
-    secret: ${JWT_SECRET}  # To register this key, create a .env file at the root of the project with
-                          # JWT_SECRET=value_of_the_key. Do not add this .env file to git
+    secret: ${JWT_SECRET}
     accessTokenExpiration : 900
     refreshTokenExpiration: 604800
   datasource:
