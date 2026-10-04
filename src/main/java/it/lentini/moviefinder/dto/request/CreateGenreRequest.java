@@ -1,8 +1,10 @@
 package it.lentini.moviefinder.dto.request;
 
-import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
 public record CreateGenreRequest(
-    @NotEmpty @Size(max = 50) String name
+        @NotBlank(message = "Genre name is required")
+        @Size(max = 50, message = "Genre name must not exceed 50 characters")
+        String name
 ) {}

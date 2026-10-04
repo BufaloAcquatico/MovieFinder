@@ -1,6 +1,6 @@
 package it.lentini.moviefinder.dto.response;
 
-public record GenreResponse(
+public record UserSummaryResponse(
         Long id,
-        String name
+        String email
 ) {}
